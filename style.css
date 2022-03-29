@@ -19,6 +19,20 @@ hr{
     /* justify-content: center; */
 }
 
+.navbarCustom button{
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    display: none;
+    border: none;
+    font-size: 30px;
+    width: max-content;
+}
+
+.navbarCustom button i{
+    background-color: transparent;
+}
+
 .navbarCustom a{
     padding: 5px;
     margin: 5px;
@@ -319,7 +333,22 @@ h1,h3{
     .c5{
         font-size: 3vw;
     }
+    .navbarCustom{
+        flex-direction: column;
+        height: max-content;
+        transition: 0.6s;
+    }
+    .navbarCustom button{
+        display: block;
+        background: transparent;
+    }
+    .responsive{
+        height: 0px;
+        animation: show 0.6s;
+    }
 }
+
+
 
 
 .c5 .mobile,.email,.address{
