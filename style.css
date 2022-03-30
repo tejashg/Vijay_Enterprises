@@ -20,6 +20,7 @@ hr {
   align-items: center;
   /* justify-content: center; */
   z-index: 2;
+  overflow-y: hidden;
 }
 
 .navbarCustom button {
@@ -81,7 +82,13 @@ hr {
 
 .serviceBlock .container p {
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.serviceBlock .container h2 {
+  font-size: 24px;
+  padding: 7px;
+  height: max-content;
 }
 
 .c1 {
@@ -265,6 +272,11 @@ a:hover {
   /* padding-top: 0.5vmax; */
   padding-bottom: 1vmax;
   height: 40vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: max-content;
 }
 
 .c5 .e1 {
@@ -363,6 +375,15 @@ h3 {
   }
   .c5 {
     font-size: 3vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .c5 img {
+    height: 250px;
+    width: auto;
   }
   .navbarCustom {
     flex-direction: column;
@@ -395,4 +416,13 @@ h3 {
 
 .c5 .mobile {
   margin-top: 5vh;
+}
+
+.footer {
+  height: max-content;
+  padding: 10px;
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(9, 53, 53);
+  font-size: 10px;
 }
