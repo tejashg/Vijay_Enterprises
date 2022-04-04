@@ -78,6 +78,11 @@ hr {
   font-size: 80px;
   margin-bottom: 40px;
   margin-top: 20px;
+  transition: all 0.6s;
+}
+.serviceBlock .container i:hover{
+  transform: scale(1.25);
+  transition: all 0.6s;
 }
 
 .serviceBlock .container p {
@@ -184,12 +189,23 @@ a:hover {
   padding: 0;
   align-content: center;
   justify-content: center;
+  transition: all 0.6s;
+  border-radius: 6px;
 }
+
+
+
 .cards img {
   width: 400px;
   height: 450px;
   margin: 15px;
-  transition: 0.5s ease-in-out;
+  transition: 0.6s all;
+  border-radius: 6px;
+}
+
+.cards img:hover {
+  transform: scale(0.8);
+  transition: all 0.6s;
 }
 
 .left {
@@ -374,7 +390,7 @@ h3 {
     font-size: 1rem;
   }
   .c5 {
-    font-size: 3vw;
+  font-size: 15px;
     height: max-content;
     display: flex;
     align-items: center;
